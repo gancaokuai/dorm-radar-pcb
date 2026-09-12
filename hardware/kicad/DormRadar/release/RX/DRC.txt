@@ -1,0 +1,30 @@
+** Drc report for DormRadar_RX.kicad_pcb **
+** Created on 2026-09-12T20:43:20 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 3 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(59.1100 mm, -6.2100 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(40.9000 mm, 0.3000 mm): Polygon of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(31.0000 mm, 24.3200 mm): Reference field of C6
+    @(30.1375 mm, 23.9500 mm): Pad 4 [<no net>] of U2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

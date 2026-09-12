@@ -1,0 +1,27 @@
+Drill report for DormRadar_TX.kicad_pcb
+Created on 2026-09-12T20:41:55
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DormRadar_TX-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (12 holes))
+    T2  0.300mm  0.0118"  (15 holes))
+    T3  0.650mm  0.0256"  (5 holes))
+    T4  1.000mm  0.0394"  (5 holes))
+    T5  1.700mm  0.0669"  (2 holes))
+
+    Total plated holes count 39
+
+
+Drill file 'DormRadar_TX-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.700mm  0.1063"  (4 holes))
+
+    Total unplated holes count 4

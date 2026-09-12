@@ -1,0 +1,21 @@
+# Local tools and downloaded runtimes
+/tools/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# KiCad local user state and caches
+*.kicad_prl
+/hardware/kicad/config/
+/hardware/kicad/documents/
+
+# Intermediate routing and test output
+/hardware/kicad/DormRadar/output/
+*.dsn
+*.ses
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

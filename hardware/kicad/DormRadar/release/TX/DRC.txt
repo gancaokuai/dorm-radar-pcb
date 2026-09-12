@@ -1,0 +1,38 @@
+** Drc report for DormRadar_TX.kicad_pcb **
+** Created on 2026-09-12T20:43:19 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 5 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(40.8900 mm, -5.2100 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(59.1100 mm, -5.2100 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(70.0000 mm, 42.0000 mm): Segment on Edge.Cuts
+    @(13.9400 mm, 42.9100 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(70.0000 mm, 42.0000 mm): Segment on Edge.Cuts
+    @(22.0200 mm, 35.8900 mm): Segment of J1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(22.0000 mm, 19.6000 mm): Reference field of U3
+    @(22.5250 mm, 19.0000 mm): Pad 1 [+3V3] of C7 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
