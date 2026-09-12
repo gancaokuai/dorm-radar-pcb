@@ -30,3 +30,15 @@ SolidWorks 2024 editable enclosure models for the TX and RX boards.
 - Use M2.5 x 8 mm self-tapping screws, four per enclosure
 
 The ESP32 antenna area must remain free of metal. Use a non-metallic enclosure only.
+
+## Print Files
+
+Each device folder contains:
+
+- Base STL
+- Cover STL
+- Combined print-plate STL with base and cover pre-arranged
+- SolidWorks SLDPRT/SLDASM source
+- STEP exchange files
+
+All STL files were verified as closed manifold meshes. The print plate files are ready to import directly into a slicer.
