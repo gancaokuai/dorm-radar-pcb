@@ -42,3 +42,17 @@ Each device folder contains:
 - STEP exchange files
 
 All STL files were verified as closed manifold meshes. The print plate files are ready to import directly into a slicer.
+
+## Fastening
+
+Recommended removable assembly, per device:
+
+- 4 x M2.5 x 22 mm cross-head self-tapping screws
+- 4 x M2.5 x 15 mm nylon through-spacers
+- 4 x M2.5 nylon washers
+- 4 x self-adhesive rubber feet
+
+Alternative tape assembly:
+
+- 4 x M2.5 x 5 mm self-tapping screws for the PCB-to-boss mounting
+- 3M VHB or equivalent double-sided tape for the cover
