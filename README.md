@@ -42,6 +42,16 @@ hardware/kicad/DormRadar/
       position/
 ```
 
+## Firmware
+
+The initial ESP32-C3 firmware MVP is in `firmware/`.
+
+- TX reads the LD2450 radar and sends detection state over ESP-NOW.
+- RX validates the packet and drives the local LED.
+- The build script uses `F:\DormRadar` as an ASCII junction because the ESP32 GCC toolchain cannot resolve the Chinese project path.
+- Build with `F:\防宿管雷达\firmware\build.ps1 all`.
+
+See `firmware/README.md` for pin mapping, thresholds, and first-board bring-up steps.
 ## Verification
 
 - TX: 0 unconnected pads, 0 electrical errors
@@ -52,3 +62,4 @@ hardware/kicad/DormRadar/
 ## Notes
 
 Use this design only in compliance with local rules and do not modify fire, access-control, or safety equipment. The radar should have direct line of sight to the intended detection zone.
+

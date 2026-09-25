@@ -19,3 +19,15 @@
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Firmware build artifacts
+/firmware/.build/
+
+
+# Local crash dumps and diagnostic files
+/debug/
+/lcsc_*.json
+/sw_*.vbs
+/hardware/kicad/DormRadar/release/backup_pre_lcsc/
+/hardware/kicad/DormRadar/release/DormRadar_iBOM/
+*.lck
