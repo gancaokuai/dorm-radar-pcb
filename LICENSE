@@ -1,0 +1,8 @@
+This repository is multi-licensed. Different parts are covered by different licenses.
+
+- Firmware source code: Apache License 2.0
+- Hardware design files: CERN Open Hardware Licence Version 2 - Weakly Reciprocal
+- Documentation and explanatory text: Creative Commons Attribution-ShareAlike 4.0 International
+
+See LICENSING.md for the detailed scope of each license.
+Full license texts are provided in the LICENSES directory.

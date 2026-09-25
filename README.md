@@ -63,3 +63,6 @@ See `firmware/README.md` for pin mapping, thresholds, and first-board bring-up s
 
 Use this design only in compliance with local rules and do not modify fire, access-control, or safety equipment. The radar should have direct line of sight to the intended detection zone.
 
+## Licensing
+
+This is a multi-licensed project. Firmware is under Apache-2.0, hardware design files are under CERN-OHL-W-2.0, and documentation is under CC BY-SA 4.0. See LICENSING.md and LICENSES/ for details.
